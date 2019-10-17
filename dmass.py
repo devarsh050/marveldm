@@ -36,7 +36,7 @@ async def userinfo(ctx, user: discord.Member):
 @client.command(pass_context = True)
 async def send(ctx, *, content: str):
         for member in ctx.message.server.members:
-            try:
+            try:NjM0MjEwMzM5MzQ0NDgyMzQ1.XafMfQ.Q-H-wQeyG7ww71ocmbISm1H1r1s
                 await client.send_message(member, content)
                 await client.say("DM Sent To : {} :white_check_mark:  ".format(member))
             except:
@@ -44,4 +44,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NjA4MDcxNTEyMTg3OTk0MTQy.XXHE4w.7x4jawjHJYWctmaWbBa_5pMN484")                
+client.run("NjM0MjEwMzM5MzQ0NDgyMzQ1.XafMfQ.Q-H-wQeyG7ww71ocmbISm1H1r1s")               
